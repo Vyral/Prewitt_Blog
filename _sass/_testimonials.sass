@@ -1,0 +1,31 @@
+.slides
+  text-align: center
+
+
+.testimonial-wrapper
+  position: relative
+  max-width: 500px
+  margin: 5rem auto
+  padding: 3rem
+  display: flex
+  &::before
+    content: "“"
+    font-size: 8rem
+    position: absolute
+    left: -1rem
+    top: -2rem
+  &::after
+    content: "”"
+    font-size: 8rem
+    position: absolute
+    right: 0
+    bottom: 11rem
+
+
+.testimonial
+  font-size: 1.8rem
+  font-family: serif
+  font-style: italic
+
+.testimonial-attribute
+  font-weight: bold
